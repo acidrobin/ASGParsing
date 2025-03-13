@@ -157,3 +157,16 @@ def compute_node_stance_f1_ged(references, predictions):
 
 
 
+if __name__ == "__main__":
+    train_data_path = "data/end_to_end_train_multilevel.csv"
+    train_data = pd.read_csv(train_data_path)
+    for i, row in train_data.iterrows():
+        comments = row["comments"]
+        summaries = row["summaries"]
+        print(f"Comments: {comments}")
+        print(f"Summaries: {summaries}")
+        summary_graph = parse_text_to_networkx(row["summaries"])
+        nodes, relations = make_arg_dicts_from_graph(summary_graph)
+        print(nodes)
+        print(relations)
+        break
