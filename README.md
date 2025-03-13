@@ -8,7 +8,7 @@ Data is derived from Debatabase (idebate.net) - to be used for noncommercial aca
 
 Usage:
 
-"Data" contains 6 files, the "multilevel" data separated into train/val/test, and non-multilevel data separated into train/val/test
+"Data" contains 6 files, the "multilevel" data separated into train/val/test, and non-multilevel data separated into train/val/test.
 The data in the multilevel and non-multilevel files is the same, except that the multilevel data contains comments attacking/ supporting other comments, 
 while in the non-mulitlevel data, all comments attack or support the "main topic".
 
