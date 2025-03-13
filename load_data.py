@@ -1,16 +1,9 @@
-from collections import defaultdict
-import numpy as np
 import os
 import re
 import os.path as op
 import pandas as pd
-import unicodedata
-from sklearn.metrics import f1_score, confusion_matrix
 from arglu.plot_argument_graphs import show_graph
-
 import networkx as nx
-
-# from arglu.file_type_utils import read_textgraph, write_textgraph
 from arglu.graph_processing import make_arg_dicts_from_graph
 
 

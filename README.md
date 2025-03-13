@@ -12,8 +12,8 @@ Usage:
 The data in the multilevel and non-multilevel files is the same, except that the multilevel data contains comments attacking/ supporting other comments, 
 while in the non-mulitlevel data, all comments attack or support the "main topic".
 
-To inspect the data, we first need to install two packages, then run the load_data.py script:
+To inspect the data, we first need to install three packages, then run the load_data.py script:
 
-pip install arglu networkx
+pip install arglu networkx pandas
 
 python load_data.py
